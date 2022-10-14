@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
 using GarbageCollectionBenchmark.Benchmarks;
+using GarbageCollectionBenchmark.Models;
 
-BenchmarkRunner.Run<GenericVsArrayListBenchmarks>();
+BenchmarkRunner.Run<ReusableArrayListBenchmarks>();
