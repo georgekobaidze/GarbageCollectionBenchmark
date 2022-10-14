@@ -2,4 +2,4 @@
 using GarbageCollectionBenchmark.Benchmarks;
 using GarbageCollectionBenchmark.Models;
 
-BenchmarkRunner.Run<ReusableArrayListBenchmarks>();
+BenchmarkRunner.Run<ArrayListVsTwoArraysBenchmarks>();
