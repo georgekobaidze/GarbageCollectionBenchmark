@@ -39,12 +39,11 @@ public class WithDispose : IDisposable
                 // Explicitly called from user code
                 // You can do basically anything here
             }
-            else
-            {
-                // Called from the finalizer
-                // Do not access references, run quickly
-            }
+            // Called from the finalizer
+            // Do not access references, run quickly
         }
+
+        _disposed = true;
     }
     
     ~WithDispose()
