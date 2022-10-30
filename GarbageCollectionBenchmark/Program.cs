@@ -1,5 +1,7 @@
-﻿using BenchmarkDotNet.Running;
-using GarbageCollectionBenchmark.Benchmarks;
-using GarbageCollectionBenchmark.Models;
+﻿using GarbageCollectionBenchmark.DisposePattern;
 
-BenchmarkRunner.Run<ArrayListVsTwoArraysBenchmarks>();
+// BenchmarkRunner.Run<RepositoryBenchmarks>();
+
+new DisposeRunner().Run();
+
+
